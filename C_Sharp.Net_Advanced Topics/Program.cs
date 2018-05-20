@@ -1,15 +1,34 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿#define DEBUG
+using System;
+using System.Diagnostics;
 
-namespace C_Sharp.Net_Advanced_Topics
+namespace Conditionalattributes
 {
-    class Program
+    public class Myclass
     {
-        static void Main(string[] args)
+        [Conditional("DEBUG")]
+
+        public static void Message(string msg)
         {
+            Console.WriteLine(msg);
+        }
+    }
+    class Test
+    {
+        static void function1()
+        {
+            Myclass.Message("In Function 1.");
+            function2();
+        }
+        static void function2()
+        {
+            Myclass.Message("In Function 2.");
+        }
+        public static void Main()
+        {
+            Myclass.Message("In Main function.");
+            function1();
+            Console.ReadKey();
         }
     }
 }
