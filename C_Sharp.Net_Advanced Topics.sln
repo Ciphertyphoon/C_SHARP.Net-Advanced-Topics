@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndexerApplication", "Index
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverloadedIndexersApplication", "OverloadedIndexersApplication\OverloadedIndexersApplication.csproj", "{B85908E3-FB85-4A9F-A197-5879A47E6F61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateAppl", "DelegateAppl\DelegateAppl.csproj", "{0E08553F-67C7-48D3-945E-C36A9600556C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateAppl1", "DelegateAppl1\DelegateAppl1.csproj", "{E1B91065-90DA-4FC7-BB50-4444506F224C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{B85908E3-FB85-4A9F-A197-5879A47E6F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B85908E3-FB85-4A9F-A197-5879A47E6F61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B85908E3-FB85-4A9F-A197-5879A47E6F61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E08553F-67C7-48D3-945E-C36A9600556C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E08553F-67C7-48D3-945E-C36A9600556C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E08553F-67C7-48D3-945E-C36A9600556C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E08553F-67C7-48D3-945E-C36A9600556C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1B91065-90DA-4FC7-BB50-4444506F224C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1B91065-90DA-4FC7-BB50-4444506F224C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1B91065-90DA-4FC7-BB50-4444506F224C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1B91065-90DA-4FC7-BB50-4444506F224C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
