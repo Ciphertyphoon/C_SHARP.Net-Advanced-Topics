@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericMethodAppl", "Generi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericDelegateAppl", "GenericDelegateAppl\GenericDelegateAppl.csproj", "{C075FF6E-FA91-4B68-A664-48D56E7365F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnnoDelegateAppl", "AnnoDelegateAppl\AnnoDelegateAppl.csproj", "{55623258-F987-4572-87B1-AE44E40265D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{C075FF6E-FA91-4B68-A664-48D56E7365F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C075FF6E-FA91-4B68-A664-48D56E7365F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C075FF6E-FA91-4B68-A664-48D56E7365F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55623258-F987-4572-87B1-AE44E40265D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55623258-F987-4572-87B1-AE44E40265D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55623258-F987-4572-87B1-AE44E40265D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55623258-F987-4572-87B1-AE44E40265D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
