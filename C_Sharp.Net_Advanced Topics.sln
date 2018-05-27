@@ -57,6 +57,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultithreadingApplication2"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultithreadingApplication3", "MultithreadingApplication3\MultithreadingApplication3.csproj", "{BB10A7E6-2F2C-4139-AEEE-A099A81B9C69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WithoutSynchronization", "WithoutSynchronization\WithoutSynchronization.csproj", "{A46220D2-762E-41BF-9941-1478C9BB36DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synchronization", "Synchronization\Synchronization.csproj", "{915D272B-AA20-4420-A77F-75A7553FDF76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +175,14 @@ Global
 		{BB10A7E6-2F2C-4139-AEEE-A099A81B9C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB10A7E6-2F2C-4139-AEEE-A099A81B9C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB10A7E6-2F2C-4139-AEEE-A099A81B9C69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A46220D2-762E-41BF-9941-1478C9BB36DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A46220D2-762E-41BF-9941-1478C9BB36DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A46220D2-762E-41BF-9941-1478C9BB36DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A46220D2-762E-41BF-9941-1478C9BB36DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{915D272B-AA20-4420-A77F-75A7553FDF76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{915D272B-AA20-4420-A77F-75A7553FDF76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{915D272B-AA20-4420-A77F-75A7553FDF76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{915D272B-AA20-4420-A77F-75A7553FDF76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
